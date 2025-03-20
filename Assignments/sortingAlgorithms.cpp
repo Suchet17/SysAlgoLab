@@ -111,7 +111,6 @@ int main() {
       ifstream fp("Permutations/permutation"+to_string(iter)+".txt");
       if (!fp.is_open()) { // check if the file is opened
         cerr << "error opening the file";
-        cout << "error opening the file";
         sleep(5);
         return 1;
       }
